@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 .clearfix::after{
   content: "";
@@ -44,7 +44,7 @@ header{
   left: 50%;
   transform: translate(-50%,-50%);
   height: 200px;
-  width: 600px;
+  width: 800px;
   background-image: url("../img/imageuno.png");
   background-position: center;
   background-size: contain;
@@ -130,8 +130,9 @@ h2,h1{
 }
 p{
   padding: 10px 15px;
-  line-height: 40px;
-  font-size: 18px;
+  line-height: 35px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 a{
