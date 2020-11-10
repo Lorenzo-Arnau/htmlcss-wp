@@ -1,0 +1,82 @@
+/* reset di pagina e utility class */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.float-left{
+  float: left;
+}
+/* /reset di pagina e utility class */
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+}
+ header{
+  background-color: yellow;
+    padding: 10px;
+}
+ main{
+  margin: 20px 0px;
+}
+footer{
+  height: 80px;
+  background-color: lightblue;
+}
+.boxlft{
+  height: 350px;
+  width: 25%;
+  background-color: violet;
+}
+.box{
+  height: 600px;
+  width:calc(50% - 40px);
+  background-color: purple;
+  margin: 0px 20px;
+}
+.boxrgt{
+  height: 600px;
+  width: 25%;
+  margin-bottom: 10px;
+}
+.boxrgt div:first-child{
+  background-color: violet;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.boxrgt div:last-child{
+  background-color: violet;
+  height: 250px;
+  width: 100%;
+}
+.menu-container{
+  width: 100%;
+  height: 45px;
+  background-color: blue;
+}
+.menu-item{
+  background-color: red;
+  width: 340px;
+  margin: auto;
+}
+li{
+  height: 45px;
+  display: inline-block;
+  font-size: 20px;
+  border-right:3px black inset;
+  color: #000;
+  line-height: 50px;
+}
+.head-background{
+  height: 150px;
+  background-color: green;
+}
