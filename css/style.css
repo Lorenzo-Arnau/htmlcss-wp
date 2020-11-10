@@ -21,16 +21,61 @@
   padding: 20px;
   background-image: url("../img/background.png");
 }
- header{
-   background-color: #fff;
-   padding: 10px;
+/* sviluppo header,immagini e logo */
+header{
+  background-color: #fff;
+  padding: 10px;
 }
+.head-background{
+  height: 450px;
+  background-image: url("../img/head-background.png");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.central-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 200px;
+  width: 600px;
+  background-image: url("../img/imageuno.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 400px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 4px 4px 10px #000;
+}
+/*/sviluppo header,immagini e logo */
+
+/*sviluppo nav,menu e voci */
+.menu-container{
+  width: 100%;
+  height: 45px;
+  background-color: #666666;
+}
+.menu-item{
+  width: 800px;
+  margin: auto;
+}
+.menu-item li{
+  height: 45px;
+  padding:0px 10px;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 50px;
+  text-shadow: text-shadow: 4px 4px 10px #000;
+}
+/*/sviluppo nav,menu e voci */
+
+/*sviluppo main,blocchi e contenuti */
  main{
   margin: 20px 0px;
-}
-footer{
-  height: 150px;
-  background-color: #fff;
 }
 .boxlft{
   width: 20%;
@@ -58,48 +103,6 @@ footer{
   height: 400px;
   width: 100%;
 }
-.menu-container{
-  width: 100%;
-  height: 45px;
-  background-color: #666666;
-}
-.menu-item{
-  width: 800px;
-  margin: auto;
-}
-.menu-item li{
-  height: 45px;
-  padding:0px 10px;
-  display: inline-block;
-  font-size: 16px;
-  color: #fff;
-  line-height: 50px;
-  text-shadow: text-shadow: 4px 4px 10px #000;
-}
-.head-background{
-  height: 450px;
-  background-image: url("../img/head-background.png");
-  position: relative;
-  background-size: cover;
-  background-position: center;
-}
-.central-logo{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  height: 200px;
-  width: 600px;
-  background-image: url("../img/imageuno.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
-  line-height: 400px;
-  font-size: 30px;
-  color: #fff;
-  text-shadow: 4px 4px 10px #000;
-}
 .boxlft div:first-child{
   display: inline-block;
   vertical-align: top;
@@ -110,6 +113,26 @@ footer{
 }
 li{
   list-style-type: none;
+  padding: 10px;
+}
+h2,h1{
+  color: #504741;
+  padding: 10px;
+}
+p{
+  padding: 10px;
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+/*/sviluppo main,blocchi e contenuti */
+
+/* sviluppo footer facbook instagram e credits */
+footer{
+  height: 150px;
+  background-color: #fff;
 }
 .credits{
   height: 40px;
@@ -130,18 +153,6 @@ li{
   background-position: center;
   background-size: contain;
 }
-h2,h1{
-  color: #504741;
-  padding: 10px;
-}
-p{
-  padding: 10px;
-}
-
-a{
-  color: green;
-  text-decoration: none;
-}
 .facebook{
   background-image: url("../img/facebook-logo.jpg");
 }
@@ -151,3 +162,6 @@ a{
 .github{
   background-image: url("../img/github-logo.jpg");
 }
+/* /sviluppo footer facbook instagram e credits */
+
+/* end version,unchecked */
