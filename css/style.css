@@ -22,7 +22,7 @@
 }
  header{
   background-color: yellow;
-    padding: 10px;
+  padding: 10px;
 }
  main{
   margin: 20px 0px;
@@ -43,19 +43,18 @@ footer{
   margin: 0px 20px;
 }
 .boxrgt{
-  height: 600px;
   width: 25%;
   margin-bottom: 10px;
 }
 .boxrgt div:first-child{
-  background-color: violet;
-  height: 250px;
-  width: 100%;
   margin-bottom: 20px;
 }
-.boxrgt div:last-child{
+.boxrgt div:nth-child(2){
+    margin-bottom: 20px;
+}
+.boxrgt div{
   background-color: violet;
-  height: 250px;
+  height: 400px;
   width: 100%;
 }
 .menu-container{
@@ -65,18 +64,40 @@ footer{
 }
 .menu-item{
   background-color: red;
-  width: 340px;
+  width: 800px;
   margin: auto;
 }
-li{
+.menu-item li{
   height: 45px;
+  padding:0px 10px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   border-right:3px black inset;
   color: #000;
   line-height: 50px;
 }
 .head-background{
-  height: 150px;
+  height: 250px;
   background-color: green;
+  position: relative;
+}
+.central-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 200px;
+  width: 400px;
+  background-color: pink;
+  text-align: center;
+  line-height: 350px;
+}
+.boxlft div:first-child{
+  display: inline-block;
+}
+.boxlft h2{
+  display: inline-block;
+}
+li{
+  list-style-type: none;
 }
