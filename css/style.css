@@ -12,12 +12,16 @@
 .float-left{
   float: left;
 }
+body{
+  background-image: url("../img/background.png");
+}
+.bordersmoother{
+  border-radius: 10px;
+}
 /* /reset di pagina e utility class */
 .container{
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid #eee;
-  border-radius: 10px;
   padding: 20px;
   background-image: url("../img/background.png");
 }
@@ -145,7 +149,6 @@ footer{
   color: #D4D4D4;
 }
 .footlogo{
-  float: left;
   width: 33%;
   height: 110px;
   background-color: red;
