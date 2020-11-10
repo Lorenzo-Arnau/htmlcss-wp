@@ -19,32 +19,33 @@
   border: 1px solid #eee;
   border-radius: 10px;
   padding: 20px;
+  background-image: url("../img/background.png");
 }
  header{
-  background-color: yellow;
-  padding: 10px;
+   background-color: #fff;
+   padding: 10px;
 }
  main{
   margin: 20px 0px;
 }
 footer{
   height: 150px;
-  background-color: lightblue;
+  background-color: #fff;
 }
 .boxlft{
-  height: 350px;
-  width: 25%;
-  background-color: violet;
+  width: 20%;
+  background-color: #fff;
+  margin-right: 5%;
 }
 .box{
-  height: 600px;
   width:calc(50% - 40px);
-  background-color: purple;
+  background-color: #fff;
   margin: 0px 20px;
 }
 .boxrgt{
-  width: 25%;
+  width: 20%;
   margin-bottom: 10px;
+  margin-left: 5%;
 }
 .boxrgt div:first-child{
   margin-bottom: 20px;
@@ -53,17 +54,16 @@ footer{
     margin-bottom: 20px;
 }
 .boxrgt div{
-  background-color: violet;
+  background-color: #fff;
   height: 400px;
   width: 100%;
 }
 .menu-container{
   width: 100%;
   height: 45px;
-  background-color: blue;
+  background-color: #666666;
 }
 .menu-item{
-  background-color: red;
   width: 800px;
   margin: auto;
 }
@@ -72,14 +72,16 @@ footer{
   padding:0px 10px;
   display: inline-block;
   font-size: 16px;
-  border-right:3px black inset;
-  color: #000;
+  color: #fff;
   line-height: 50px;
+  text-shadow: text-shadow: 4px 4px 10px #000;
 }
 .head-background{
-  height: 250px;
-  background-color: green;
+  height: 450px;
+  background-image: url("../img/head-background.png");
   position: relative;
+  background-size: cover;
+  background-position: center;
 }
 .central-logo{
   position: absolute;
@@ -87,13 +89,21 @@ footer{
   left: 50%;
   transform: translate(-50%,-50%);
   height: 200px;
-  width: 400px;
-  background-color: pink;
+  width: 600px;
+  background-image: url("../img/imageuno.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   text-align: center;
-  line-height: 350px;
+  line-height: 400px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 4px 4px 10px #000;
 }
 .boxlft div:first-child{
   display: inline-block;
+  vertical-align: top;
+  margin: 5px;
 }
 .boxlft h2{
   display: inline-block;
@@ -103,11 +113,13 @@ li{
 }
 .credits{
   height: 40px;
-  border-bottom: 3px #000 inset;
-  background-color: green;
+  width: 98%;
+  margin: auto;
+  border-bottom: 2px #D4D4D4 inset;
   text-align: center;
   font-style: italic;
   line-height: 50px;
+  color: #D4D4D4;
 }
 .footlogo{
   float: left;
@@ -115,4 +127,27 @@ li{
   height: 110px;
   background-color: red;
   margin-left: 3px;
+  background-position: center;
+  background-size: contain;
+}
+h2,h1{
+  color: #504741;
+  padding: 10px;
+}
+p{
+  padding: 10px;
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+.facebook{
+  background-image: url("../img/facebook-logo.jpg");
+}
+.instagram{
+  background-image: url("../img/instagram-logo.jpg");
+}
+.github{
+  background-image: url("../img/github-logo.jpg");
 }
