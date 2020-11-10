@@ -28,7 +28,7 @@
   margin: 20px 0px;
 }
 footer{
-  height: 80px;
+  height: 150px;
   background-color: lightblue;
 }
 .boxlft{
@@ -100,4 +100,19 @@ footer{
 }
 li{
   list-style-type: none;
+}
+.credits{
+  height: 40px;
+  border-bottom: 3px #000 inset;
+  background-color: green;
+  text-align: center;
+  font-style: italic;
+  line-height: 50px;
+}
+.footlogo{
+  float: left;
+  width: 33%;
+  height: 110px;
+  background-color: red;
+  margin-left: 3px;
 }
